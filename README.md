@@ -1,16 +1,74 @@
-# React + Vite
+# Doable
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, clean todo list app built with React and Vite. Add tasks, check them off, and delete them when you're done.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- ✅ Add new todos
+- ☑️ Mark todos as complete (with strikethrough styling)
+- 🗑️ Delete todos
+- 📱 Responsive layout with Bootstrap grid
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- [React](https://react.dev/) — UI library
+- [Vite](https://vitejs.dev/) — build tool and dev server
+- [Bootstrap](https://getbootstrap.com/) — layout and base styling
+- [Bootstrap Icons](https://icons.getbootstrap.com/) — icons (trash icon)
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v18 or later recommended)
+- npm (comes with Node.js)
+
+### Installation
+
+```bash
+# Clone the repo
+git clone https://github.com/your-username/doable.git
+cd doable
+
+# Install dependencies
+npm install
+```
+
+### Development
+
+```bash
+npm run dev
+```
+
+This starts the Vite dev server. Open the printed local URL (typically `http://localhost:5173`) in your browser.
+
+### Build
+
+```bash
+npm run build
+```
+
+Compiles the app for production into the `dist/` folder.
+
+### Preview production build
+
+```bash
+npm run preview
+```
+
+## Project Structure
+
+```
+doable/
+├── src/
+│   ├── App.jsx      # Main app component
+│   ├── App.css       # App styling
+│   └── main.jsx      # Entry point
+├── index.html
+└── package.json
+```
+
+## Roadmap / Known Limitations
+
+- Todos are currently stored in-memory only and will reset on page refresh (no persistence yet)
+- No edit-in-place functionality for existing todos
