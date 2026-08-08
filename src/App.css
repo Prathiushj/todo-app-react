@@ -1,0 +1,61 @@
+.section {
+  height: 16rem;
+}
+
+.cardStyle {
+  height: 10rem;
+  width: 25rem;
+  background: darkgray;
+  margin-top: 5rem;
+}
+
+.inp {
+  height: 3rem;
+  width: 15rem;
+  background: rgb(241, 238, 238);
+  color: rgb(0, 0, 0);
+}
+
+.title {
+  color: rgb(242, 242, 233);
+  font-weight: bold;
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
+
+.para {
+  color: rgb(242, 242, 233);
+  margin-bottom: 5px;
+}
+
+.butt {
+  background: rgb(31, 81, 31);
+}
+
+.cardStyle2 {
+  display: sc;
+  background: darkgray;
+  height: 18rem;
+  width: 25rem;
+  margin-top: 1rem;
+  overflow-y: auto;
+}
+
+.section2 {
+  height: 24.1rem;
+}
+
+.para2 {
+  font-weight: bold;
+  font-size: x-large;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.icon {
+  color: red;
+}
+
+.paraDiv {
+  min-width: 0;
+}
